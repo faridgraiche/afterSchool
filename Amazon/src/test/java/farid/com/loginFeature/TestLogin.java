@@ -11,7 +11,7 @@ import java.util.Properties;
 
 public class TestLogin extends CommonAPI {
 
-    public Properties properties = PropertiesReader.readProperties("/Users/farid/eclipse-workspace/SecondAfterSchool/Amazon/src/test/resources/config.properties");
+    public Properties properties = PropertiesReader.readProperties("/Users/farid/eclipse-workspace/afterSchool/Amazon/src/test/resources/config.properties");
     public String signInTitle = properties.getProperty("signInTitle");
     public String userName = properties.getProperty("userName");
     public String passWord = properties.getProperty("passWord");
