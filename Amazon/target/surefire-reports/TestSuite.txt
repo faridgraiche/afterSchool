@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 45, Failures: 6, Errors: 0, Skipped: 39, Time elapsed: 0.618 s <<< FAILURE! - in TestSuite
+setUp(farid.com.search.TestSearchSingleItem)  Time elapsed: 0.36 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable must exist: /Users/farid/eclipse-workspace/SecondAfterSchool/Amazon/../Generic/src/drivers/chromedriver 2.exe
+
+setUp(farid.com.search.TestSearchMultipleItems)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable must exist: /Users/farid/eclipse-workspace/SecondAfterSchool/Amazon/../Generic/src/drivers/chromedriver 2.exe
+
+setUp(farid.com.menu.TestSelectMenuOption)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable must exist: /Users/farid/eclipse-workspace/SecondAfterSchool/Amazon/../Generic/src/drivers/chromedriver 2.exe
+
+setUp(farid.com.menu.TestCheckWatchList)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable must exist: /Users/farid/eclipse-workspace/SecondAfterSchool/Amazon/../Generic/src/drivers/chromedriver 2.exe
+
+setUp(farid.com.purchase.TestPurchase)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable must exist: /Users/farid/eclipse-workspace/SecondAfterSchool/Amazon/../Generic/src/drivers/chromedriver 2.exe
+
+setUp(farid.com.loginFeature.TestLogin)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable must exist: /Users/farid/eclipse-workspace/SecondAfterSchool/Amazon/../Generic/src/drivers/chromedriver 2.exe
+

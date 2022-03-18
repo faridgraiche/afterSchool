@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon automation" parallel ="false">
+    <parameter name="useCloudEnv" value="true"></parameter>
+    <parameter name="cloudEnvName" value="browserstack"></parameter>
+    <parameter name="os_version" value="Sierra"></parameter>
+    <parameter name="browser_version" value="OS X"></parameter>
+
+    <parameter name="OS" value="mac"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="url" value="https://www.amazon.com/"></parameter>
+    
+    
+    <test name="Amazon test">
+        <classes>
+<!--            <class name="farid.com.search.TestSearchMultipleItems"></class>-->
+<!--            <class name="farid.com.menu.TestSelectMenuOption"></class>-->
+<!--            <class name="farid.com.search.TestSearchSingleItem"></class>-->
+            <class name="farid.com.loginFeature.TestLogin"></class>
+        </classes>
+    </test>
+</suite>

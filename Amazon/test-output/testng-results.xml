@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon automation" duration-ms="18394" started-at="2022-03-15T21:45:25 EDT" finished-at="2022-03-15T21:45:44 EDT">
+    <groups>
+    </groups>
+    <test name="Amazon test" duration-ms="18394" started-at="2022-03-15T21:45:25 EDT" finished-at="2022-03-15T21:45:44 EDT">
+      <class name="farid.com.search.SearchMultipleItems">
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:farid.com.search.SearchMultipleItems@2b552920]" name="setUp" is-config="true" duration-ms="4368" started-at="2022-03-15T21:45:25 EDT" finished-at="2022-03-15T21:45:30 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchItems()[pri:0, instance:farid.com.search.SearchMultipleItems@2b552920]" name="searchItems" duration-ms="13658" started-at="2022-03-15T21:45:30 EDT" finished-at="2022-03-15T21:45:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItems -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:farid.com.search.SearchMultipleItems@2b552920]" name="afterMethod" is-config="true" duration-ms="337" started-at="2022-03-15T21:45:43 EDT" finished-at="2022-03-15T21:45:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- farid.com.search.SearchMultipleItems -->
+    </test> <!-- Amazon test -->
+  </suite> <!-- Amazon automation -->
+</testng-results>

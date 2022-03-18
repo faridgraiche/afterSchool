@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="farid.com.search.TestSearchSingleItem">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="searchJavaBook"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+          <include name="extentSetup"/>
+          <include name="searchSeleniumBook"/>
+          <include name="searchComputer"/>
+        </methods>
+      </class> <!-- farid.com.search.TestSearchSingleItem -->
+      <class name="farid.com.loginFeature.TestLogin">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+          <include name="extentSetup"/>
+          <include name="loginWithInvalidEmail"/>
+        </methods>
+      </class> <!-- farid.com.loginFeature.TestLogin -->
+      <class name="farid.com.purchase.TestPurchase">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="addToCartAndCheckItem"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- farid.com.purchase.TestPurchase -->
+      <class name="farid.com.menu.TestSelectMenuOption">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="clickOnBabyWithSelect"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+          <include name="getDropdownListWithOutSelect"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- farid.com.menu.TestSelectMenuOption -->
+      <class name="farid.com.search.TestSearchMultipleItems">
+        <methods>
+          <include name="searchItems"/>
+          <include name="afterEachTestMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- farid.com.search.TestSearchMultipleItems -->
+      <class name="farid.com.menu.TestCheckWatchList">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="checkWatchList"/>
+          <include name="generateReport"/>
+          <include name="startExtent"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- farid.com.menu.TestCheckWatchList -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
