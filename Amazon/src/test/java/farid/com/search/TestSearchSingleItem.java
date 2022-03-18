@@ -11,22 +11,23 @@ import java.util.Properties;
 
 public class TestSearchSingleItem extends CommonAPI {
 
-    public Properties properties = PropertiesReader.readProperties("/Users/farid/eclipse-workspace/SecondAfterSchool/Amazon/src/test/resources/config.properties");
+    public Properties properties = PropertiesReader.readProperties("/Users/farid/eclipse-workspace/afterSchool/Amazon/src/test/resources/config.properties");
     public String homePageTitle = properties.getProperty("homePageTitle");
     public String seleniumTitle = properties.getProperty("seleniumTitle");
     public String javaTitle= properties.getProperty("javaTitle");
     public String computerTitle= properties.getProperty("computerTitle");
+    public String laptopTitle = properties.getProperty("laptopTitle");
 
 
 
-    @Test
+//    @Test
     public void searchSeleniumBook() {
         HomePage homePage = new HomePage(driver);
         homePage.searchElement("selenium book");
         Assert.assertEquals(getTitle(),seleniumTitle);
     }
 
-    @Test
+//    @Test
     public void searchJavaBook() {
         HomePage homePage = new HomePage(driver);
         String expectedTitle = homePageTitle;
@@ -36,11 +37,20 @@ public class TestSearchSingleItem extends CommonAPI {
 
     }
 
-    @Test
+//    @Test
     public void searchComputer(){
         HomePage homePage = new HomePage(driver);
         homePage.searchInOneClick("computer");
         Assert.assertEquals(getTitle(),computerTitle);
     }
+
+    @Test
+
+    public void searchLaptop(){
+        HomePage homePage = new HomePage(driver);
+        homePage.searchInOneClick("laptop");
+        Assert.assertEquals(getTitle(),laptopTitle);
+    }
+
 
 }

@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Amazon automation" parallel ="false">
-    <parameter name="useCloudEnv" value="true"></parameter>
+    <parameter name="useCloudEnv" value="false"></parameter>
     <parameter name="cloudEnvName" value="browserstack"></parameter>
     <parameter name="os_version" value="Sierra"></parameter>
     <parameter name="browser_version" value="OS X"></parameter>
@@ -16,8 +16,8 @@
         <classes>
 <!--            <class name="farid.com.search.TestSearchMultipleItems"></class>-->
 <!--            <class name="farid.com.menu.TestSelectMenuOption"></class>-->
-<!--            <class name="farid.com.search.TestSearchSingleItem"></class>-->
-            <class name="farid.com.loginFeature.TestLogin"></class>
+            <class name="farid.com.search.TestSearchSingleItem"></class>
+<!--            <class name="farid.com.loginFeature.TestLogin"></class>-->
         </classes>
     </test>
 </suite>
